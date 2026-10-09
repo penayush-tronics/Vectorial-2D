@@ -1,9 +1,9 @@
 #include <iostream> //io header
 #include <string> //stringg datatype 
-#include <cmath> //math
-//#include <random> //random
-
+#include <cmath> 
+#include <QApplication>
 using namespace std;
+
 
 
 void printNum(string text, double nums){
@@ -21,4 +21,10 @@ double enterNum(string text){
     cout << text;
     cin >> num;
     return num;
+}
+
+int main(int argc, char **argv){
+    QApplication GUI (argc, argv);
+    return GUI.exec();
+
 }

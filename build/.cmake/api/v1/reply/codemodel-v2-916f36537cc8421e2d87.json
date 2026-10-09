@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GUItest",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GUItest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GUItest-Debug-27987575f865e4925e50.json",
+					"name" : "GUItest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GUItest_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GUItest_autogen-Debug-73ad71e384a80c5735c6.json",
+					"name" : "GUItest_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GUItest_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GUItest_autogen_timestamp_deps-Debug-10c28c2b59912028ae1f.json",
+					"name" : "GUItest_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ayush/whitehat/Vectorial/build",
+		"source" : "/home/ayush/whitehat/Vectorial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
